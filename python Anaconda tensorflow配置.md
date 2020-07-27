@@ -25,7 +25,7 @@ conda activate tensorflow    //tensorflow指环境名称
 
 然后，安装tensorflow，输入
 ``` markdown
-conda install tensorflow    //tensorflow指环境名称
+conda install tensorflow   
 ```
 现在装的有CPU和GPU版本，要使用GPU，还要安装cuda和cudnn
 安装好之后，打开Anaconda Navigator，点击Environment ，切换到tensorflow环境，再到Home页面，install一下jupter Notebook，安装完之后打开，输入
