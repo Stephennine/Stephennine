@@ -20,3 +20,23 @@ tensorflow 指的是环境名称，可以更改，后面的python=3.7如果你�
 ``` markdown
 conda activate tensorflow    //tensorflow指环境名称
 ```
+会出现如下的界面
+
+
+然后，安装tensorflow，输入
+``` markdown
+conda install tensorflow    //tensorflow指环境名称
+```
+现在装的有CPU和GPU版本，要使用GPU，还要安装cuda和cudnn
+安装好之后，打开Anaconda Navigator，点击Environment ，切换到tensorflow环境，再到Home页面，install一下jupter Notebook，安装完之后打开，输入
+``` markdown
+import tensorflow as tf
+```
+如果成功，则不会报“No Module Name ‘tensorflow’”，否则就检查一下是否是环境没有切换，或者下载tensorflow时有问题。
+
+### 三、Pycharm配置
+安装好Pycharm后，点击 File->Setting->Project->Project Interpreter,点击主界面右边的一齿轮，点击出来的Add，然后选择Anaconda下刚刚配置好的文件夹下的python执行文件，就可以将导入好的包导入到pycharm中，非常方便，然后就可以使用了。
+Pycharm可以灵活切换Anaconda中的环境，不想用tensorflow时，就转换回base下的python，如果有其它环境，导入即可，各个环境相互独立，满足不同需求。
+
+
+    
